@@ -24,6 +24,9 @@ app.get("/college", (req, res) => {
 app.get("/skills", (req, res) => {
     res.send("I know Java, JavaScript, HTML and CSS.");
 });
+app.get("/skillset", (req, res) => {
+    res.send("I know apti,dsa,fsa,Java, JavaScript, HTML and CSS.");
+});
 app.get("/city",(req,res) => {
 
 

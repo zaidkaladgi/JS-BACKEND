@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
 app.get('/twitter',(req,res) =>{
     res.send('zaidkkk')
 })
+app.get('/twitters',(req,res) =>{
+    res.send('zaidkkkkk')
+})
+
 
 
 app.get('/login',(req,res) =>{
